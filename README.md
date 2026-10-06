@@ -1,6 +1,5 @@
-# КТ алгоритмы
+# КТ3 алгоритмы
 
-Проект содержит решения шести алгоритмических задач на Java 21.
 
 ## Требования
 
@@ -21,7 +20,7 @@ mvn test
 mvn package
 ```
 
-После сборки классы находятся в `target/classes`.
+После сборки классы находятся в `target/classes`
 
 ## Задача 1. Следующая строго большая цена
 
@@ -31,7 +30,7 @@ mvn package
 com.example.kt4.Task1NextGreaterPrice
 ```
 
-В первой строке вводится `n`. Во второй строке вводятся `n` цен.
+В первой строке вводится `n`. Во второй строке вводятся `n` цен
 
 Запуск:
 
@@ -67,7 +66,7 @@ java -cp target/classes com.example.kt4.Task1NextGreaterPrice
 com.example.kt4.Task2GridShortestPath
 ```
 
-В первой строке вводятся `n` и `m`. Далее вводятся `n` строк карты.
+В первой строке вводятся `n` и `m`. Далее вводятся `n` строк карты
 
 Запуск:
 
@@ -88,7 +87,7 @@ S..#
 5
 ```
 
-Используется BFS. Каждая клетка обрабатывается не более одного раза.
+Используется BFS. Каждая клетка обрабатывается не более одного раза
 
 Сложность:
 
@@ -105,7 +104,7 @@ S..#
 com.example.kt4.Task3FunctionalGraphCycle
 ```
 
-В первой строке вводятся `n` и `start`. Во второй строке вводится массив `next`.
+В первой строке вводятся `n` и `start`. Во второй строке вводится массив `next`
 
 Запуск:
 
@@ -124,7 +123,7 @@ java -cp target/classes com.example.kt4.Task3FunctionalGraphCycle
 YES
 ```
 
-Используется алгоритм Флойда с медленным и быстрым указателями.
+Используется алгоритм Флойда с медленным и быстрым указателями
 
 Сложность:
 
@@ -220,7 +219,6 @@ com.example.kt4.Task6FindDuplicate
 ```
 
 В первой строке вводится `n`. Во второй строке вводятся `n + 1` чисел.
-
 Запуск:
 
 ```bash
@@ -237,9 +235,6 @@ java -cp target/classes com.example.kt4.Task6FindDuplicate
 Вывод:
 2
 ```
-
-Массив рассматривается как функциональный граф. Повторяющееся значение находится алгоритмом Флойда без изменения массива.
-
 Сложность:
 
 ```text
@@ -251,14 +246,14 @@ java -cp target/classes com.example.kt4.Task6FindDuplicate
 
 ```text
 src/main/java/com/example/kt4
-├── FastScanner.java
-├── Task1NextGreaterPrice.java
-├── Task2GridShortestPath.java
-├── Task3FunctionalGraphCycle.java
-├── Task4MaximalRectangle.java
-├── Task5KeysAndDoors.java
-└── Task6FindDuplicate.java
+- FastScanner.java
+- Task1NextGreaterPrice.java
+- Task2GridShortestPath.java
+- Task3FunctionalGraphCycle.java
+- Task4MaximalRectangle.java
+- Task5KeysAndDoors.java
+- Task6FindDuplicate.java
 
 src/test/java/com/example/kt4
-└── AlgorithmsTest.java
+- AlgorithmsTest.java
 ```
