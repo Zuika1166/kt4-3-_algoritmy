@@ -19,7 +19,7 @@ class AlgorithmsTest {
     @Test
     void nextGreaterPriceHandlesMixedSequence() {
         assertArrayEquals(
-            new int[]{1, 1, 2, 1, 0, 0},
+            new int[]{1, 2, 1, 1, 0, 0},
             Task1NextGreaterPrice.daysUntilHigher(new int[]{2, 4, 3, 5, 7, 6})
         );
     }
